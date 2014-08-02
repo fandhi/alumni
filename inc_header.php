@@ -17,6 +17,7 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
         <meta name="author" content=""/>
         <meta name="distribution" content="global"/>
         <title>Alumni</title>
+        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/reset.css">	
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style.css"/>
     </head>
