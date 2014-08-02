@@ -41,11 +41,11 @@ body {
     margin-bottom: 10px;
 }
 .header_top {
-    height: 30px;
+    /*height: 30px;*/
 }
 .header_bottom {
-    height: 50px;
-    position: relative;
+/*    height: 50px;
+    position: relative;*/
 }
 .line_top {
     border-top: 2px solid #C41743;
@@ -112,10 +112,8 @@ body {
 /* trendPost
 ------------------------------------------------- */
 .search {
-    margin-bottom: 10px;
     overflow: hidden;
     position: relative;
-    float: right;
 }
 .search input[type="text"] {
     float: left;
@@ -300,22 +298,18 @@ ul.list_people li.last {
 /*  profileMenu
 --------------------------------------*/
 #profileMenu {
-    margin-left: 10px;
+/*    margin-left: 10px;
     margin-right: 10px;
-    padding-left: 0;
+    padding-left: 0;*/
 }
 #profileMenu li {
-    float: left;
+/*    float: left;
     list-style: none;
-    margin: 0 2px 0 0;
+    margin: 0 2px 0 0;*/
 }
 #profileMenu li a {
-    background: #bac963;
-    color: #fff;
-    display: inline-block;
-    font-family: OpenSansBold;
-    font-size: 14px;
-    padding: 11px 20px;
+/*    font-size: 14px;
+    padding: 11px 20px;*/
 }
 #profileMenu li a:hover {
     background: #4f749f;
