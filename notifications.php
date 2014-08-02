@@ -1,0 +1,2 @@
+<div class="nf_title">Notifications</div>
+<div class="nf_list"></div>

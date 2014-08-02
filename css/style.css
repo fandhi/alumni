@@ -1,0 +1,423 @@
+/*=============================================================================================	
+        style css decorated by : Web Architect (webarq.com)
+==============================================================================================*/
+
+@import url("embed_fonts.css");
+body  ::selection {
+    background: #B64D4D;
+    color: #CCC;
+}
+body  ::-moz-selection {
+    background: #B64D4D;
+    color: #CCC;
+}
+
+body {
+    background: #e2e2e2;
+    color:#333; 
+    font-size:12px; 
+    font-family:OpenSansReguler;
+}
+
+/* structure
+----------------------------------------------------------------------------------------------*/
+#container {position: relative;}
+
+.wrapper_12 {
+    width:960px;
+    margin:0 auto;
+}
+#middle {
+    position:relative;
+}
+
+
+/* header
+----------------------------------------------------------------------------------------------*/
+#header {
+    background-position: 50% 5px;
+    background-image: url(../images/material/pattern.jpg);
+    /*position: relative;*/
+    margin-bottom: 10px;
+}
+.header_top {
+    height: 30px;
+}
+.header_bottom {
+    height: 50px;
+    position: relative;
+}
+.line_top {
+    border-top: 2px solid #C41743;
+    position: absolute;
+    right: 0px;
+    width: 980px
+}
+
+/* middle
+----------------------------------------------------------------------------------------------*/
+
+/*profile_sett
+---------------------------------------*/
+#profile_sett {
+    background: #fff;
+    margin-top: 30px;
+}
+#profile_sett .img,.menu_profile {margin: 10px 15px;}
+#profile_sett .img {
+    border: 1px solid #f1f1f1;
+    display: block;
+    height: 237px;
+    overflow: hidden;
+    /*width: 150px;*/
+}
+.menu_profile {
+    /*margin: 0;*/
+    padding: 0;
+}
+.menu_profile li {
+    list-style: none;
+}
+.menu_profile li a {
+    color: #000;
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.menu_profile li a:hover {color: #1f94bf;}
+/* newsFeed
+------------------------------------------------- */
+#newsFeed {}
+.nf_title {
+    color: #9f9f9f;
+    font-family: OpenSansSemiBold;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#newsFeed form textarea {
+    border: 1px solid #b5b5b5;
+    min-height: 100px;
+    max-width: 97%;
+    width: 97%;
+}
+.nf_list {
+    background: #fff;
+    margin-bottom: 10px;
+    min-height: 80px;
+    padding: 10px;
+}
+
+/* trendPost
+------------------------------------------------- */
+.search {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+.search input[type="text"] {
+    float: left;
+    padding: 10px 5px;
+}
+.search input[type="image"] {
+    background: #a6b54c;
+    padding: 7px;
+    position: absolute;
+    right: 0;
+}
+.hm_search {
+    margin-right: 10px;
+    width: 268px;
+}
+.hm_search input[type="text"] {
+    width: 220px;
+}
+.tp_search {
+    width: 300px;
+}
+.tp_search input[type="text"] {
+    width: 252px;
+}
+
+.trend_post {
+    background: #fff;
+    clear: both;
+    padding-bottom: 5px;
+}
+.trend_post .tp_title {
+    background: #1f94bf;
+    border-bottom: 1px solid #4796b9;
+    color: #fad526;
+    font-family: OpenSansSemiBold;
+    font-size: 18px;
+    padding: 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.list_trend {
+    border: 1px solid #4796b9;
+    margin: 10px;
+    min-height: 100px;
+    padding: 10px;
+}
+/* TAB
+--------------------------------------*/
+#sugest {
+    clear: both;
+}
+
+
+UL.mytabs {
+    position: relative;
+    z-index: 2;
+}
+UL.mytabs, UL.mytabs LI {
+    margin: 0;
+    padding: 0 9px;
+    list-style: none;
+    float: left;
+}
+UL.mytabs LI { padding: 0 1px; }
+UL.mytabs LI A {
+    float: left;
+    padding: 10px 15px;
+    background: #606060;
+    text-decoration: none;
+    color: #fff;
+}
+UL.mytabs LI A:HOVER, UL.mytabs LI.current A {
+    background: #1f94bf;
+    color: #fff;
+}
+UL.mytabs LI.current A {
+    /*font-size: 14px;*/
+    border-bottom: 1px solid #FFFFFF;
+}
+.mytabs-container {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    clear: both;
+    border: 1px solid #E0E0E0;
+    padding: 10px 0;
+    top: -1px;
+    overflow: hidden;
+    margin-left: 10px;
+margin-right: 10px;
+}
+
+
+#scroller-header a {
+    background-color: #606060;
+    font-family: OpenSansSemiBold;
+    text-decoration:none; 
+    color:#fff; 
+    padding:10px 15px;
+}
+
+#scroller-header a:hover {
+    background: #1f94bf;
+    text-decoration:none; 
+    color:#fff;
+}
+
+#scroller-header a.selected {
+    background-color: #1f94bf;
+    text-decoration:underline !important; 
+    color:#fff !important;
+}
+
+#scroller-header {
+    height:26px;
+    padding:35px 0 0 10px;
+    font-weight:700;
+}
+
+#scroller-body {
+    /*background:url(images/body.gif) no-repeat bottom center;*/
+
+    padding-bottom:30px;
+}
+
+#mask {
+    width:940px;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+#panel {
+
+}
+
+#panel > div {
+    float:left;
+    padding-bottom: 10px;
+}
+
+/* Extra styling for each panel*/
+
+ul.list_people {
+    list-style:none;
+    margin:0 5px;
+    padding:8px;
+}
+
+ul.list_people li {
+    float: left;
+    height: 145px;
+    width:91px;
+    padding:5px;
+    color:#557482;
+}
+
+ul.list_people li.last {
+    border-bottom:none !important;
+}
+.panel {
+    background: #fff;
+}
+.panel .img {
+
+}
+.list_people .nm_profile {
+    display: block;
+    background: #dddddd;
+    color: #373737;
+    font-family: OpenSanslight;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+#panel-1 {
+}
+
+#panel-2 {
+}
+
+#panel-3 {
+}
+/*  profileMenu
+--------------------------------------*/
+#profileMenu {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+}
+#profileMenu li {
+    float: left;
+    list-style: none;
+    margin: 0 2px 0 0;
+}
+#profileMenu li a {
+    background: #bac963;
+    color: #fff;
+    display: inline-block;
+    font-family: OpenSansBold;
+    font-size: 14px;
+    padding: 11px 20px;
+}
+#profileMenu li a:hover {
+    background: #4f749f;
+}
+/*  profileSettings
+--------------------------------------*/
+#profileSettings {
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#profileSettings .space {
+
+}
+#profileSettings .img {
+    width: 150px;
+}
+.social_share {
+    padding-left: 0;
+}
+.social_share li {
+    list-style: none;
+    float: left;
+}
+.profile_content table td,.profile_content table td {
+    padding: 4px;
+}
+
+/* footer
+----------------------------------------------------------------------------------------------*/
+#footer {
+    background-color: #606060;
+    background-position: 0 192px;
+    background-repeat: repeat-x;
+    border-top: 4px solid #a6b54c;
+    height: 250px;
+    position:relative;
+    max-width:1366px;
+    margin:0 auto;
+}
+.footer_top {
+    overflow: hidden;
+    padding-top: 20px;
+    margin: 0 auto;
+    /*width: 564px;*/
+}
+.footer_top li {
+    background: url(../images/material/line-vfooter.png) no-repeat right;
+    color: #ebebeb;
+    display: inline-block;
+    /*float: left;*/
+    padding: 0 15px;
+}
+.footer_top li:last-child {background: none;}
+.footer_top li.last {background: none;}
+.footer_top li a {
+    color: #ebebeb;
+    text-transform: uppercase;
+}
+.footer_top li a:hover {
+    color: #d13138;
+}
+.footer_top li a.active {
+    color: #c61633;
+}
+.icon_socmed {
+    height: 51px;
+    margin: 23px auto;
+    width: 137px;
+}
+.icon_socmed .i_fb,.icon_socmed .i_tw {
+    display: block;
+    float: left;
+    height: 51px;
+    margin: 0 8.5px;
+    text-indent: -9999px;
+    width: 51px;
+}
+.icon_socmed .i_fb {
+    background: url(../images/material/icon-facebook.png) no-repeat;
+}
+.icon_socmed .i_tw {
+    background: url(../images/material/icon-twitter.png) no-repeat;
+}
+.footer_middle {
+    color: #b5b5b5;
+    font-family: arial;
+    text-align: center;
+}
+.footer_bottom {
+    color: #9f9f9f;
+    font-family: arial;
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+@media (max-width: 1400px) {
+    #dropSocial ul {
+        right: 6px;
+    }
+}
+
