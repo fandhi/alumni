@@ -20,10 +20,12 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
         <meta name="distribution" content="global"/>
         <title>Alumni</title>
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/reset.css">	
+        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style-themes.css">
+        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/green-theme.css">
+        <!--<link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/reset.css">-->	
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style.css"/>
     </head>
-    <body>
+    <body class="theme-style green-theme">
         <section id="container">
             <header id="header"class="navbar navbar-inverse">
                 <div class="container">
@@ -42,16 +44,15 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
                             <ul id="profileMenu" class="nav navbar-nav">
                                 <li><a href="http://'.$url.'">Home</a></li>
                                 <li><a href="http://'.$url.'">Profile</a></li>
-                                <li><a href="http://'.$url.'">Alumni Networks</a></li>
-                                <li><a href="http://'.$url.'">Post</a></li>
                                 <li><a href="http://'.$url.'">Groups</a></li>
-                                <li><a href="http://'.$url.'">Promotions Area</a></li>
+                                <li><a href="http://'.$url.'">Forums</a></li>
+                                <li><a href="http://'.$url.'">Alumni Networks</a></li>
                             </ul>
                             <!--end profileMenu-->
-                            <form class="hm_search search navbar-form navbar-left" action="" method="" role="search">
+                            <form class="hm_search search navbar-form navbar-right" action="" method="" role="search">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Search" />
-                                    <input type="image" src="http://'.$url.'images/material/searchButton.png" />
+                                    <input class="form-control" type="text" placeholder="Find name, groups, forums" />
+                                    <span class="glyphicon glyphicon-search"></span>
                                 </div>
                             </form>';}
                         ?>

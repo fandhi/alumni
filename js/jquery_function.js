@@ -35,9 +35,10 @@ $(document).ready(function() {
     //countries.setselectedClassTarget("link") //"link" or "linkparent"
     //countries.init()
 
+//input checkbox inderteminate
+document.getElementsByClassName(".indeterminate").indeterminate = true;
 
-
-});
+});//END DOCUMENT
 
 $(
         function() {
