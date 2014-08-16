@@ -1,4 +1,5 @@
             <footer id="footer">
+                <div class="row">
                     <a class="col-md-1 col-sm-3" href="">Uiners</a>
                     <ul class="col-md-1 col-sm-3">
                         <li><a href="">Home</a></li>
@@ -40,7 +41,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-3 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Send</button>
+                                    <button type="submit" class="btn btn-primary">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -49,8 +50,9 @@
                         <div class="social">
 
                         </div>
-                        <div>Uiners team &commat; 2014</div>
+                        <div class="copyright">Uiners team &commat; 2014</div>
                     </div>
+                </div>
             </footer>
         </section>
         <script type="text/javascript" src="http://<?php echo $url;?>js/jquery_1.9.1.js"></script>

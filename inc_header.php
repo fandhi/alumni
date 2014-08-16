@@ -25,9 +25,9 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
         <!--<link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/reset.css">-->	
         <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style.css"/>
     </head>
-    <body class="theme-style green-theme">
+    <body class="green-theme">
         <section id="container">
-            <header id="header"class="navbar navbar-inverse">
+            <header id="header"class="navbar navbar-inverse navbar-default">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header_bottom">
@@ -36,7 +36,7 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Brand</a>
+                        <a class="navbar-brand" href="./">Uiners</a>
                     </div>
                     <div class="header_top"></div>
                     <div class="collapse navbar-collapse header_bottom">

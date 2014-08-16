@@ -60,14 +60,11 @@ body {
 /*profile_sett
 ---------------------------------------*/
 #profile_sett {
-    background: #fff;
     margin-top: 30px;
 }
 #profile_sett .img,.menu_profile {margin: 10px 15px;}
 #profile_sett .img {
-    border: 1px solid #f1f1f1;
     display: block;
-    height: 237px;
     overflow: hidden;
     /*width: 150px;*/
 }
@@ -79,10 +76,7 @@ body {
     list-style: none;
 }
 .menu_profile li a {
-    color: #000;
-    display: block;
-    font-size: 16px;
-    margin: 5px 0;
+
 }
 .menu_profile li a:hover {color: #1f94bf;}
 /* newsFeed
@@ -97,13 +91,10 @@ body {
     text-align: center;
 }
 #newsFeed form textarea {
-    border: 1px solid #b5b5b5;
     min-height: 100px;
-    max-width: 97%;
-    width: 97%;
+    max-width: 100%;
 }
 .nf_list {
-    background: #fff;
     margin-bottom: 10px;
     min-height: 80px;
     padding: 10px;
@@ -133,14 +124,14 @@ body {
     width: 220px;
 }
 .tp_search {
-    width: 300px;
+    margin-bottom: 20px;
+
 }
 .tp_search input[type="text"] {
     width: 252px;
 }
 
 .trend_post {
-    background: #fff;
     clear: both;
     padding-bottom: 5px;
 }
@@ -199,11 +190,9 @@ UL.mytabs LI.current A {
     z-index: 1;
     clear: both;
     border: 1px solid #E0E0E0;
-    padding: 10px 0;
+    padding: 10px;
     top: -1px;
     overflow: hidden;
-    margin-left: 10px;
-margin-right: 10px;
 }
 
 
@@ -229,7 +218,7 @@ margin-right: 10px;
 
 #scroller-header {
     height:26px;
-    padding:35px 0 0 10px;
+    padding:0px;
     font-weight:700;
 }
 
@@ -240,7 +229,6 @@ margin-right: 10px;
 }
 
 #mask {
-    width:940px;
     overflow:hidden;
     margin:0 auto;
 }
@@ -265,11 +253,10 @@ ul.list_people {
 ul.list_people li {
     float: left;
     height: 145px;
-    width:91px;
     padding:5px;
     color:#557482;
 }
-
+ul.list_people li a {display: block;}
 ul.list_people li.last {
     border-bottom:none !important;
 }
@@ -312,14 +299,11 @@ ul.list_people li.last {
     padding: 11px 20px;*/
 }
 #profileMenu li a:hover {
-    background: #4f749f;
+    /*background: #4f749f;*/
 }
 /*  profileSettings
 --------------------------------------*/
 #profileSettings {
-    background: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
     overflow: hidden;
 }
 #profileSettings .space {
@@ -329,7 +313,7 @@ ul.list_people li.last {
     width: 150px;
 }
 .social_share {
-    padding-left: 0;
+    padding: 10px 0;
 }
 .social_share li {
     list-style: none;
@@ -422,6 +406,7 @@ ul.list_people li.last {
 #footer ul li a {
     color: #fff;
 }
+#footer .copyright {color: #fff;}
 
 @media (max-width: 1400px) {
     #dropSocial ul {

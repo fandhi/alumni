@@ -1,55 +1,55 @@
 <ul class="list_people">
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li>
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
-    <li class="last">
+    <li class="col-lg-1">
         <a class="img">
-            <img src="images/content/profile-1.jpg" alt="" />
+            <img class="img-thumbnail" src="images/content/profile-1.jpg" alt="" />
             <span class="nm_profile">Name</span>
         </a>
     </li>
