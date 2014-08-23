@@ -108,6 +108,9 @@ body {
 #profile_sett {
     margin-top: 30px;
 }
+#profile_sett .well {
+    overflow: hidden;
+}
 #profile_sett .img,.menu_profile {}
 #profile_sett .img {
     display: block;

@@ -2284,6 +2284,11 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
+  #profile_sett .well {
+    clear: both;
+    content: "";
+    
+}
 }
 fieldset {
 /*  padding: 0;
