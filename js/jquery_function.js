@@ -46,7 +46,7 @@ $(
             var jContent = $("#newsFeed");
 
             // Hook up link click events to load content.
-            $("ul.menu_profile li a").click(
+            $("ul.menu_profile li a.ajax-menu").click(
                     function(objEvent) {
                         var jLink = $(this);
 
