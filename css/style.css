@@ -372,7 +372,9 @@ ul.list_people li.last {
 
 /*  menu settings
 --------------------------------------*/
-.menu-settings {}
+.menu-settings {
+    padding-left: 0px;
+}
 .menu-settings li {
     display: block;
 }
@@ -387,16 +389,16 @@ ul.list_people li.last {
 #mediaUpdates {}
 #mediaUpdates li a {
     height: 64px;
-    overflow: hidden;
     width: 64px;
 }
 #mediaUpdates li a img {
+    height: 100%;
     position: relative;
-    top: 9px;
-    transform: scale(1.5);
+/*    transform: scale(1.5);
     -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    width: 100%;}
+    -webkit-transform: scale(1.5);*/
+    width: 100%;
+}
 /* footer
 ----------------------------------------------------------------------------------------------*/
 #footer {
