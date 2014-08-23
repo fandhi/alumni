@@ -1,31 +1,33 @@
             <footer id="footer">
                 <div class="row">
-                    <a class="col-md-1 col-sm-3" href="">Uiners</a>
-                    <ul class="col-md-1 col-sm-3">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Groups</a></li>
-                        <li><a href="">Forums</a></li>
-                        <li><a href="">Sitemap</a></li>
-                    </ul>
-                    <ul class="col-md-1 col-sm-3">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Groups</a></li>
-                        <li><a href="">Forums</a></li>
-                        <li><a href="">Sitemap</a></li>
-                    </ul>
-                    <ul class="col-md-1 col-sm-3">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Groups</a></li>
-                        <li><a href="">Forums</a></li>
-                        <li><a href="">Sitemap</a></li>
-                    </ul>
-                    <ul class="col-md-1 col-sm-3">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Groups</a></li>
-                        <li><a href="">Forums</a></li>
-                        <li><a href="">Sitemap</a></li>
-                    </ul>
-                    <div class="col-md-4 well">
+                    <a class="col-sm-2 col-md-1 col-lg-1" href="">Uiners</a>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <ul class="col-sm-12 col-md-6 col-lg-3">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Groups</a></li>
+                            <li><a href="">Forums</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                        <ul class="col-sm-12 col-md-6 col-lg-3">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Groups</a></li>
+                            <li><a href="">Forums</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                        <ul class="col-sm-12 col-md-6 col-lg-3">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Groups</a></li>
+                            <li><a href="">Forums</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                        <ul class="col-sm-12 col-md-6 col-lg-3">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Groups</a></li>
+                            <li><a href="">Forums</a></li>
+                            <li><a href="">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-4 well">
                         <form class="form-horizontal" method="post" action="" role="form">
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">Email :</label>
