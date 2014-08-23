@@ -5,47 +5,101 @@ include 'inc_header.php';
 <section id="middle">
     <div class="container">
         <div class="row">
-            <div id="profile_sett" class="col-lg-3">
-                <div class="well">
-                <a class="img" href="profile.php">
-                    <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
-                </a>
-                <ul class="menu_profile list-group">
-                    <li><a class="list-group-item" href="inbox.php">Inbox<span class="badge pull-right">42</span></a></li>
-                    <li><a class="list-group-item" href="notifications.phpd">Notifications<span class="badge pull-right">18</span></a></li>
-                    <li><a class="list-group-item" href="follower.php">Follower<span class="badge pull-right">4382</span></a></li>
-                    <li><a class="list-group-item" href="follow.php">Follow<span class="badge pull-right">24</span></a></li>
-                    <li><a class="list-group-item" href="group.php">Group</a></li>
-                    <li><a class="list-group-item" href="http://<?php echo $url ?>settings.php">Settings</a></li>
-                </ul>
-                </div>
-            </div>
-
-        <!--end profile_sett-->
-            <div id="newsFeed" class="col-lg-6">
-                <div class="nf_title">News Feed</div>
-                <div class="nf_list well">
-                    <form class="form-horizontal" action="" method="" role="form">
-                        <div class="row">
-                            <div class="col-lg-12">
-                        <textarea class="form-control" placeholder="Whats going on + REPLY"></textarea>
+            <div id="" class="col-sm-12 col-md-9 col-lg-9">
+                <ul id="mediaUpdates" class="media-list">
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/person-2.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Nested media heading</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                    </li>
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/person-3.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Nested media heading</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                    </li>
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/person-1.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Media heading</h4>
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            <!-- Nested media object -->
+                            <div class="media">
+                                <a class="pull-left img-rounded" href="#">
+                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/profile-1.jpg">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Nested media heading</h4>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    <!-- Nested media object -->
+                                    <div class="media">
+                                        <a class="pull-left img-rounded" href="#">
+                                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/person-4.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Nested media heading</h4>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Nested media object -->
+                            <div class="media">
+                                <a class="pull-left img-rounded" href="#">
+                                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIi8+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+">
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Nested media heading</h4>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-                <div class="nf_list well"></div>
-                <div class="nf_list well"></div>
-                <div class="nf_list well"></div>
-                <div class="nf_list well"></div>
+                    </li>
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/imgres.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Nested media heading</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                    </li>
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/person-2.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Nested media heading</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                    </li>
+                    <li class="media well">
+                        <a class="pull-left img-rounded" href="#">
+                            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="images/content/profile-1.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Nested media heading</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div id="ajax-status"></div>
-
-        <!--end newsFeed-->
-            <div id="trendPost" class="col-lg-3 omega">
-                <form class="form-inline tp_search search" action="" method="" role="form">
+            <div id="trendPost" class="col-sm-12 col-md-3 col-lg-3 omega">
+                <form class="form tp_search search" action="" method="" role="form">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Search" />
-                    <input type="image" src="http://<?php echo $url ?>images/material/searchButton.png" />
+                        <div class="col-xs-12 col-sm-12 col-md-12 prefix-0">
+                            <input class="form-control" type="text" placeholder="Search" />
+                        </div>
+                        <input type="image" src="http://<?php echo $url ?>images/material/searchButton.png" />
                     </div>
                 </form>
                 <div class="trend_post panel panel-primary">
@@ -58,24 +112,11 @@ include 'inc_header.php';
                         <div class="list_trend"></div>
                         <div class="list_trend"></div>
                     </div>
-                    
+
                 </div>
             </div><!--end trendPost-->
-        </div><!--/ row -->
-        
-        <div class="row">
-            <div id="sugest" class="col-lg-12">
-                <ul class="mytabs" id="tabs">
-                    <li class="current"><a href="people-you-may-know.php">People you may know</a></li>
-                    <li><a href="promote.php">Promote your self</a></li>
-                </ul>
-                <div class="mytabs-container well" id="tabs-container">
-                    Loading. Please Wait...
-                </div>
-            </div>
         </div>
     </div>
-    <!--end wrapper_12-->
-</section>
-<!--end middle-->
+    <!--end container-->
+</section><!--end middle-->
 <?php include 'inc_footer.php'; ?>
