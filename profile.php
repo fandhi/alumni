@@ -1,5 +1,5 @@
 <?php
-$page = "page1";
+$page = "profile";
 include 'inc_header.php';
 ?>
 <section id="middle">
