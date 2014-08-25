@@ -41,16 +41,18 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
                     <div class="header_top"></div>
                     <div class="collapse navbar-collapse header_bottom">
                             <ul id="profileMenu" class="nav navbar-nav">
-                                <li><a href="http://<?php echo $url;?>home.php">Home</a></li>
-                                <li><a href="http://<?php echo $url;?>profile.php">Profile</a></li>
-                                <li><a href="http://<?php echo $url;?>">Groups</a></li>
-                                <li><a href="http://<?php echo $url;?>">Forums</a></li>
-                                <li><a href="http://<?php echo $url;?>">Alumni Networks</a></li>
+                                <li <?php if($page == "home") echo 'class="open"';?>><a href="http://<?php echo $url;?>home.php">Home</a></li>
+                                <li <?php if($page == "profile") echo 'class="open"';?>><a href="http://<?php echo $url;?>profile.php">Profile</a></li>
+                                <li <?php if($page == "groups") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Groups</a></li>
+                                <li <?php if($page == "forums") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Forums</a></li>
+                                <li <?php if($page == "networks") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Alumni Networks</a></li>
                             </ul>
                             <!--end profileMenu-->
                             <ul id="profileMenu" class="nav navbar-nav navbar-right">
-                                <li><a href="http://<?php echo $url;?>log-in.php">Log In</a></li>
-                                <li><a href="http://<?php echo $url;?>register.php">Register</a></li>
+                                <?php if($page == "index" || $page == "register") echo '<li><a href="http://'.$url.'log-in.php">Log In</a></li>';?>
+                                <?php if($page == "index") echo '<li><a href="http://'.$url.'register.php">Register</a></li>';?>
+                                <?php if($page == "home"|| $page == "profile") echo '<li><a href="http://'.$url.'profile.php">Nama User yang panjang</a></li>
+                                    <li><a href="http://'.$url.'">Log Out</a></li>';?>
                             </ul>
                             <form class="hm_search search navbar-form navbar-right" action="" method="" role="search">
                                 <div class="form-group">
