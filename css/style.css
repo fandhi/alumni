@@ -26,6 +26,7 @@ body {
 .prefix-5 {padding-left:50px;}
 .prefix-6 {padding-left:60px;}
 
+.pasfix-0 {padding-right:0px;}
 .pasfix-1 {padding-right:10px;}
 .pasfix-2 {padding-right:20px;}
 .pasfix-3 {padding-right:30px;}
@@ -66,6 +67,11 @@ body {
 .append-bottom-2 {margin-bottom: 20px;}
 .append-bottom-3 {margin-bottom: 30px;}
 .append-bottom-4 {margin-bottom: 40px;}
+
+.append-top-1 {margin-top: 10px;}
+.append-top-2 {margin-top: 20px;}
+.append-top-3 {margin-top: 30px;}
+.append-top-4 {margin-top: 40px;}
 /* structure
 ----------------------------------------------------------------------------------------------*/
 #container {position: relative;}
@@ -116,8 +122,9 @@ body {
 #profile_sett .img {
     display: block;
     overflow: hidden;
-    /*width: 150px;*/
+    width: 100%;
 }
+#profile_sett .img img {width: 100%;}
 .menu_profile {
     /*margin: 0;*/
     padding: 0;
@@ -158,7 +165,7 @@ body {
 }
 .search input[type="text"] {
     float: left;
-    padding: 10px 5px;
+    padding: 7px 5px;
 }
 .search input[type="image"] {
     background: #a6b54c;
@@ -172,6 +179,7 @@ body {
     width: 268px;
 }
 .hm_search input[type="text"] {
+    font-size: 12px;
     width: 220px;
 }
 .tp_search {
@@ -392,6 +400,14 @@ ul.list_people li.last {
 /*  mediaUpdates
 --------------------------------------*/
 #mediaUpdates {}
+#mediaUpdates li .media-body{position: relative;}
+.date-update {
+    color: #999999;
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 #mediaUpdates li a {
     height: 64px;
     width: 64px;
