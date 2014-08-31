@@ -14,9 +14,9 @@ include 'inc_header.php';
                     </div>
                     <div class="col-xs-8 col-sm-12 prefix-0 pasfix-0">
                     <ul class="menu_profile list-group">
-                        <li><a class="list-group-item ajax-menu" href="inbox.php">Inbox<span class="badge">42</span></a></li>
-                        <li><a class="list-group-item ajax-menu" href="notifications.phpd">Notifications<span class="badge">18</span></a></li>
-                        <li><a class="list-group-item" href="http://<?php echo $url ?>mysettings-profilesetting.php">Settings</a></li>
+                        <li><a class="list-group-item ajax-menu" href="inbox.php">My Message<span class="badge">42</span></a></li>
+                        <li><a class="list-group-item ajax-menu" href="notifications.php">My Notifications<span class="badge">18</span></a></li>
+                        <li><a class="list-group-item" href="http://<?php echo $url ?>mysettings-profilesetting.php">My Settings</a></li>
                     </ul>
                     </div>
                 </div>
@@ -120,10 +120,19 @@ include 'inc_header.php';
                         <h3 class="panel-title">Trend Post</h3>
                     </div>
                     <div class="panel-body">
-                        <div class="list_trend"></div>
-                        <div class="list_trend"></div>
-                        <div class="list_trend"></div>
-                        <div class="list_trend"></div>
+                        <div class="list_trend">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                        <div class="list_trend">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                        <div class="list_trend">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
+                        </div>
+                        <div class="list_trend">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                        </div>
+                        <button class="btn btn-primary" type="button">Load More</button>
                     </div>
 
                 </div>
