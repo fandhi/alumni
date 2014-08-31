@@ -5,7 +5,7 @@ include 'inc_header.php';
 <section id="middle">
     <div class="container">
         <div class="row">
-            <div id="profile_sett" class="col-sm-4 col-md-3 col-lg-3">
+            <div id="profile_sett" class="col-sm-4 col-md-3 col-lg-2">
                 <div class="well">
                     <div class="col-xs-4 col-sm-12 prefix-0 pasfix-0">
                     <a class="img" href="profile.php">
@@ -14,11 +14,8 @@ include 'inc_header.php';
                     </div>
                     <div class="col-xs-8 col-sm-12 prefix-0 pasfix-0">
                     <ul class="menu_profile list-group">
-                        <li><a class="list-group-item ajax-menu" href="inbox.php">Inbox<span class="badge pull-right">42</span></a></li>
-                        <li><a class="list-group-item ajax-menu" href="notifications.phpd">Notifications<span class="badge pull-right">18</span></a></li>
-                        <li><a class="list-group-item ajax-menu" href="follower.php">Follower<span class="badge pull-right">4382</span></a></li>
-                        <li><a class="list-group-item ajax-menu" href="follow.php">Follow<span class="badge pull-right">24</span></a></li>
-                        <li><a class="list-group-item ajax-menu" href="group.php">Group</a></li>
+                        <li><a class="list-group-item ajax-menu" href="inbox.php">Inbox<span class="badge">42</span></a></li>
+                        <li><a class="list-group-item ajax-menu" href="notifications.phpd">Notifications<span class="badge">18</span></a></li>
                         <li><a class="list-group-item" href="http://<?php echo $url ?>mysettings-profilesetting.php">Settings</a></li>
                     </ul>
                     </div>
@@ -26,7 +23,7 @@ include 'inc_header.php';
             </div>
 
             <!--end profile_sett-->
-            <div id="newsFeed" class="col-sm-8 col-md-6 col-lg-6">
+            <div id="newsFeed" class="col-sm-8 col-md-6 col-lg-7">
                 <div class="nf_title">News Feed</div>
                 <div class="nf_list well">
                     <form class="form-horizontal" action="" method="" role="form">
