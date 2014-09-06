@@ -1,5 +1,5 @@
 <?php
-$url = $_SERVER['SERVER_NAME'] . "/alumni/";
+$url = "http://".$_SERVER['SERVER_NAME'] . "/alumni/";
 
 ?>
 <!DOCTYPE html>
@@ -18,12 +18,12 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
         <meta name="copyright" content="">
         <meta name="author" content="">
         <meta name="distribution" content="global">
-        <?php if($page === "register-success") {echo '<meta http-equiv="refresh" content="1;URL=http://'.$url.'home.php">' ;}?>
+        <?php if($page === "register-success") {echo '<meta http-equiv="refresh" content="1;URL='.$url.'home.php">' ;}?>
         <title>Alumni</title>
-        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style-themes.css">
-        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/green-theme.css">	
-        <link rel="stylesheet" type="text/css" href="http://<?php echo $url ?>css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/style-themes.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/green-theme.css">	
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/style.css"/>
     </head>
     <body class="green-theme">
         <section id="container">
@@ -41,18 +41,18 @@ $url = $_SERVER['SERVER_NAME'] . "/alumni/";
                     <div class="header_top"></div>
                     <div class="collapse navbar-collapse header_bottom">
                             <ul id="profileMenu" class="nav navbar-nav">
-                                <li <?php if($page == "home") echo 'class="open"';?>><a href="http://<?php echo $url;?>home.php">Home</a></li>
-                                <li <?php if($page == "profile") echo 'class="open"';?>><a href="http://<?php echo $url;?>profile.php">Profile</a></li>
-                                <li <?php if($page == "groups") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Groups</a></li>
-                                <li <?php if($page == "forums") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Forums</a></li>
-                                <li <?php if($page == "networks") echo 'class="open"';?>><a href="http://<?php echo $url;?>">Alumni Networks</a></li>
+                                <li <?php if($page == "home") echo 'class="open"';?>><a href="<?php echo $url;?>home.php">Home</a></li>
+                                <li <?php if($page == "profile") echo 'class="open"';?>><a href="<?php echo $url;?>profile.php">Profile</a></li>
+                                <li <?php if($page == "groups") echo 'class="open"';?>><a href="<?php echo $url;?>">Groups</a></li>
+                                <li <?php if($page == "forums") echo 'class="open"';?>><a href="<?php echo $url;?>">Forums</a></li>
+                                <li <?php if($page == "networks") echo 'class="open"';?>><a href="<?php echo $url;?>">Alumni Networks</a></li>
                             </ul>
                             <!--end profileMenu-->
                             <ul id="profileMenu" class="nav navbar-nav navbar-right">
-                                <?php if($page == "index" || $page == "register") echo '<li><a href="http://'.$url.'log-in.php">Log In</a></li>';?>
-                                <?php if($page == "index") echo '<li><a href="http://'.$url.'register.php">Register</a></li>';?>
-                                <?php if($page == "home"|| $page == "profile") echo '<li><a href="http://'.$url.'profile.php">Nama User yang panjang</a></li>
-                                    <li><a href="http://'.$url.'">Log Out</a></li>';?>
+                                <?php if($page == "index" || $page == "register") echo '<li><a href="'.$url.'log-in.php">Log In</a></li>';?>
+                                <?php if($page == "index") echo '<li><a href="'.$url.'register.php">Register</a></li>';?>
+                                <?php if($page == "home"|| $page == "profile") echo '<li><a href="'.$url.'profile.php">Nama User yang panjang</a></li>
+                                    <li><a href="'.$url.'">Log Out</a></li>';?>
                             </ul>
                             <form class="hm_search search navbar-form navbar-right" action="" method="" role="search">
                                 <div class="form-group">
