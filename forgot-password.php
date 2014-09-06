@@ -8,7 +8,12 @@ include 'inc_header.php';
             <form class=" form panel-body" method="post" action="" name="" role="form">
                 <h3 class="append_bottom_3">Forgot password</h3>
                 <div class="form-group">
-                    <input class="form-control" type="email" name="" value="" placeholder="Input your email"/>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </span>
+                        <input class="form-control" type="email" name="" value="" placeholder="Input your email"/>
+                    </div>
                 </div>
                 <div class="form-horizontal upfix_2">
                     <div class="form-group text-center">

@@ -32,13 +32,23 @@
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">Email :</label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" type="email">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-envelope"></span>
+                                        </span>
+                                        <input class="form-control" type="email">
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">Message :</label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" type="text">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </span>
+                                        <input class="form-control" type="text">
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
