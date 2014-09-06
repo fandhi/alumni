@@ -120,7 +120,10 @@ body {
 }
 #profile_sett .img,.menu_profile {}
 #profile_sett .img {
+    border: 1px solid #dddddd;
     display: block;
+    height: 125px;
+    margin-bottom: 5px;
     overflow: hidden;
     width: 100%;
 }
@@ -382,7 +385,30 @@ ul.list_people li.last {
 .profile_content table td,.profile_content table td {
     padding: 4px;
 }
-
+.relative {position: relative;}
+.btn-add, .removeinput {
+    height: 15px;
+    position: absolute;
+    width: 15px;
+}
+.btn-add {
+    right: 20px;
+    top: 10px;
+}
+.removeinput {
+    right: 4px;
+    top: 10px;
+}
+.btn-add:hover, .removeinput:hover {text-decoration: none;}
+.icon-social-input .typcn {
+    left: 6px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.icon-social-input .form-control {
+    padding-left: 35px;
+}
 /*  menu settings
 --------------------------------------*/
 .menu-settings {

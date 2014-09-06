@@ -36,8 +36,75 @@ $(document).ready(function() {
     //countries.init()
 
 //input checkbox inderteminate
-document.getElementsByClassName(".indeterminate").indeterminate = true;
+    document.getElementsByClassName(".indeterminate").indeterminate = true;
 
+//NAMBAH FIELD INPUT
+    var MaxInputs = 3; //maximum input boxes allowed
+    var InputsWrapper = $("#InputsWrapper"); //Input boxes wrapper ID
+    var AddButton = $("#AddMoreFileBox"); //Add button ID
+
+    var x = InputsWrapper.length; //initlal text box count
+    var FieldCount = 1; //to keep track of text box added
+
+    $(AddButton).click(function(e)  //on add input button click
+    {
+        if (x <= MaxInputs) //max input box allowed
+        {
+            FieldCount++; //text box added increment
+            //add input box
+            $(InputsWrapper).append('<div class="relative append-bottom-1"><input class="form-control" type="text" name="mytext[]" id="phone-no_' + FieldCount + '" value="" ' + FieldCount + '"/><a href="#" class="removeinput glyphicon glyphicon-minus-sign">&nbsp;</a></div>');
+            x++; //text box increment
+        }
+        return false;
+    });
+
+    $("body").on("click", ".removeinput", function(e) { //user click on remove text
+        if (x > 1) {
+            $(this).parent('div').remove(); //remove text box
+            x--; //decrement textbox
+        }
+        return false;
+    });
+
+//    CROPPING GAMBAR UNTUK GAMBAR PROFIL
+    var croppicHeaderOptions = {
+        uploadUrl: 'img_save_to_file.php',
+        cropData: {
+            "dummyData": 1,
+            "dummyData2": "asdas"
+        },
+        cropUrl: 'img_crop_to_file.php',
+        customUploadButtonId: 'cropContainerHeaderButton',
+        modal: false,
+        loaderHtml: '<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> ',
+        onBeforeImgUpload: function() {
+            console.log('onBeforeImgUpload');
+        },
+        onAfterImgUpload: function() {
+            console.log('onAfterImgUpload');
+        },
+        onImgDrag: function() {
+            console.log('onImgDrag');
+        },
+        onImgZoom: function() {
+            console.log('onImgZoom');
+        },
+        onBeforeImgCrop: function() {
+            console.log('onBeforeImgCrop');
+        },
+        onAfterImgCrop: function() {
+            console.log('onAfterImgCrop');
+        }
+    };
+    var croppic = new Croppic('croppic', croppicHeaderOptions);
+    var croppicContainerModalOptions = {
+        uploadUrl: 'img_save_to_file.php',
+        cropUrl: 'img_crop_to_file.php',
+        modal: true,
+        imgEyecandyOpacity: 0.4,
+        loaderHtml: '<div class="loader bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div> '
+    };
+    var cropContainerModal = new Croppic('cropContainerModal', croppicContainerModalOptions);
 });//END DOCUMENT
 
 $(
@@ -69,11 +136,11 @@ $(
                                         jContent.html("<p>Page Not Found!!</p>");
                                     },
                                     /*beforeSend: function() {
-                                        ShowStatus("AJAX - beforeSend()");
-                                    },
-                                    complete: function() {
-                                        ShowStatus("AJAX - complete()");
-                                    },*/
+                                     ShowStatus("AJAX - beforeSend()");
+                                     },
+                                     complete: function() {
+                                     ShowStatus("AJAX - complete()");
+                                     },*/
                                     success: function(strData) {
                                         //ShowStatus("AJAX - success()");
 
