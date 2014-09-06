@@ -9,14 +9,14 @@ include 'inc_header.php';
             <div class="space col-xs-12 col-sm-4 col-md-3  col-lg-3">
                 <div class="well">
                     <div class="img">
-                        <img src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                        <img src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                     </div>
                     <ul class="social_share">
-                        <li><a href=""><img src="http://<?php echo $url ?>images/material/icon-fb.png" alt="" /></a></li>
-                        <li><a href=""><img src="http://<?php echo $url ?>images/material/icon-youtube.png" alt="" /></a></li>
-                        <li><a href=""><img src="http://<?php echo $url ?>images/material/icon-twitter.png" alt="" /></a></li>
-                        <li><a href=""><img src="http://<?php echo $url ?>images/material/icon-lingkedin.png" alt="" /></a></li>
-                        <li><a href=""><img src="http://<?php echo $url ?>images/material/icon-google-plus.png" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo $url ?>images/material/icon-fb.png" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo $url ?>images/material/icon-youtube.png" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo $url ?>images/material/icon-twitter.png" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo $url ?>images/material/icon-lingkedin.png" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo $url ?>images/material/icon-google-plus.png" alt="" /></a></li>
                     </ul>
                 </div>
             </div>
@@ -93,55 +93,55 @@ include 'inc_header.php';
                                 <ul class="list_people">
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>
                                     <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1">
                                         <a class="img">
-                                            <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                                            <img class="img-thumbnail" src="<?php echo $url ?>images/content/profile-1.jpg" alt="" />
                                             <span class="nm_profile">Name</span>
                                         </a>
                                     </li>

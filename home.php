@@ -9,14 +9,14 @@ include 'inc_header.php';
                 <div class="well">
                     <div class="col-xs-4 col-sm-12 prefix-0 pasfix-0">
                     <a class="img" href="profile.php">
-                        <img class="img-thumbnail" src="http://<?php echo $url ?>images/content/profile-1.jpg" alt="" />
+                        <img src="<?php echo $url ?>images/content/profile-1.jpg" data-src="<?php echo $url ?>js/holder.js/100%x125" alt="100%x125" />
                     </a>
                     </div>
                     <div class="col-xs-8 col-sm-12 prefix-0 pasfix-0">
                     <ul class="menu_profile list-group">
                         <li><a class="list-group-item ajax-menu" href="inbox.php">My Message<span class="badge">42</span></a></li>
                         <li><a class="list-group-item ajax-menu" href="notifications.php">My Notifications<span class="badge">18</span></a></li>
-                        <li><a class="list-group-item" href="http://<?php echo $url ?>mysettings-profilesetting.php">My Settings</a></li>
+                        <li><a class="list-group-item" href="<?php echo $url ?>mysettings-profilesetting.php">My Settings</a></li>
                     </ul>
                     </div>
                 </div>
@@ -56,39 +56,6 @@ include 'inc_header.php';
                             <h4 class="media-heading"><a href="">User 2</a></h4>
                             <span class="date-update">25 Agustus 2014</span>
                             <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
-                            <!-- Nested media object -->
-                            <div class="media">
-                                <a class="pull-left" href="#">
-                                    <img class="media-object img-rounded" data-src="holder.js/64x64" alt="64x64" src="images/content/profile-1.jpg">
-                                </a>
-                                <div class="media-body">
-                                    <h4 class="media-heading"><a href="">User 3</a></h4>
-                            <span class="date-update">25 Agustus 2014</span>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    <!-- Nested media object -->
-                                    <div class="media">
-                                        <a class="pull-left" href="#">
-                                            <img class="media-object img-rounded" data-src="holder.js/64x64" alt="64x64" src="images/content/person-4.jpg">
-                                        </a>
-                                        <div class="media-body">
-                                            <h4 class="media-heading"><a href="">User 4</a></h4>
-                            <span class="date-update">25 Agustus 2014</span>
-                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Nested media object -->
-                            <div class="media">
-                                <a class="pull-left" href="#">
-                                    <img class="media-object img-rounded" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjZWVlIi8+PHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzIiIHk9IjMyIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9zdmc+">
-                                </a>
-                                <div class="media-body">
-                                    <h4 class="media-heading"><a href="">User 5</a></h4>
-                            <span class="date-update">25 Agustus 2014</span>
-                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                </div>
-                            </div>
                         </div>
                     </li>
                     <li class="media well">
@@ -107,14 +74,6 @@ include 'inc_header.php';
 
             <!--end newsFeed-->
             <div id="trendPost" class="col-sm-12 col-md-3 col-lg-3 omega">
-                <form class="form tp_search search" action="" method="" role="form">
-                    <div class="form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-12 prefix-0">
-                            <input class="form-control" type="text" placeholder="Search" />
-                        </div>
-                        <input type="image" src="http://<?php echo $url ?>images/material/searchButton.png" />
-                    </div>
-                </form>
                 <div class="trend_post panel panel-primary">
                     <div class="tp_title panel-heading">
                         <h3 class="panel-title">Trend Post</h3>
