@@ -22,8 +22,10 @@ $url = "http://".$_SERVER['SERVER_NAME'] . "/alumni/";
         <title>Alumni</title>
         <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/style-themes.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/green-theme.css">	
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/green-theme.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/croppic.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo $url ?>css/typicons.css"/>
     </head>
     <body class="green-theme">
         <section id="container">
