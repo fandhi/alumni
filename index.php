@@ -103,14 +103,6 @@ include 'inc_header.php';
                 </ul>
             </div>
             <div id="trendPost" class="col-sm-12 col-md-3 col-lg-3 omega">
-                <form class="form tp_search search" action="" method="" role="form">
-                    <div class="form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-12 prefix-0">
-                            <input class="form-control" type="text" placeholder="Search" />
-                        </div>
-                        <input type="image" src="<?php echo $url ?>images/material/searchButton.png" />
-                    </div>
-                </form>
                 <div class="trend_post panel panel-primary">
                     <div class="tp_title panel-heading">
                         <h3 class="panel-title">Trend Post</h3>

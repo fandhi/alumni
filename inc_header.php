@@ -52,7 +52,7 @@ $url = "http://".$_SERVER['SERVER_NAME'] . "/alumni/";
                             <!--end profileMenu-->
                             <ul id="profileMenu" class="nav navbar-nav navbar-right">
                                 <?php if($page == "index" || $page == "register") echo '<li><a href="'.$url.'log-in.php">Log In</a></li>';?>
-                                <?php if($page == "index") echo '<li><a href="'.$url.'register.php">Register</a></li>';?>
+                                <?php if($page == "index" || $page = "log-in") echo '<li><a href="'.$url.'register.php">Register</a></li>';?>
                                 <?php if($page == "home"|| $page == "profile") echo '<li><a href="'.$url.'profile.php">Nama User yang panjang</a></li>
                                     <li><a href="'.$url.'">Log Out</a></li>';?>
                             </ul>
