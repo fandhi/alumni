@@ -168,27 +168,27 @@ include 'inc_header.php';
                                 <label class="control-label col-lg-4">Social Media</label>
                                 <div class="col-lg-8 icon-social-input">
                                     <div class="relative">
-                                        <input class="form-control append-bottom-1" type="text" placeholder="Enter URL of your personal site">
+                                        <input class="form-control append-bottom-1" type="url" placeholder="Enter URL of your personal site">
                                         <label class="typcn typcn-user"></label>
                                     </div>
                                     <div class="relative">
-                                        <input class="form-control  append-bottom-1" type="text" placeholder="Enter URL of your Facebook profile">
+                                        <input class="form-control  append-bottom-1" type="url" placeholder="Enter URL of your Facebook profile">
                                         <label class="typcn typcn-social-facebook"></label>
                                     </div>
                                     <div class="relative">
-                                        <input class="form-control append-bottom-1" type="text" placeholder="Enter URL of your Twitter">
+                                        <input class="form-control append-bottom-1" type="url" placeholder="Enter URL of your Twitter">
                                         <label class="typcn typcn-social-twitter"></label>
                                     </div>
                                     <div class="relative">
-                                        <input class="form-control append-bottom-1" type="text" placeholder="Enter URL of your Linkedin">
+                                        <input class="form-control append-bottom-1" type="url" placeholder="Enter URL of your Linkedin">
                                         <label class="typcn typcn-social-linkedin"></label>
                                     </div>
                                     <div class="relative">
-                                        <input class="form-control append-bottom-1" type="text" placeholder="Enter URL of your Youtube channel">
+                                        <input class="form-control append-bottom-1" type="url" placeholder="Enter URL of your Youtube channel">
                                         <label class="typcn typcn-social-youtube"></label>
                                     </div>
                                     <div class="relative">
-                                        <input class="form-control append-bottom-1" type="text" placeholder="Enter URL of your Google Plus">
+                                        <input class="form-control append-bottom-1" type="url" placeholder="Enter URL of your Google Plus">
                                         <label class="typcn typcn-social-google-plus"></label>
                                     </div>
                                 </div>
